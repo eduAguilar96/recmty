@@ -16,7 +16,7 @@ div{
 #topContainer{
 	min-height: 700px;
 	padding-top: 60px;
-	padding-bottom: 0px;
+	padding-bottom: 60px;
 	background-image: url("../images/rec_mty_background.png");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -24,7 +24,6 @@ div{
 	background-position: 50% 50%;
 	text-align: center;
 	display: block;
-	background-color: blue;
 	bottom: 0px;
 }
 #social{
@@ -42,7 +41,7 @@ div{
 }
 #topDividerWrapper{
 	top: 0px;
-	width: 100%;
+/*	width: 100%;*/
 	background-color: #ED1C24;
 	margin: 0px;
 	padding: 20px;
@@ -117,8 +116,10 @@ a.nav {
 #sixthContainer{
 	height: 200px;
 	background-color: #262627;
+	padding: 40px;
 }
 #footer {
 	height:	100px;
 	background-color: #1f2125;
+	padding: 40px;
 }
