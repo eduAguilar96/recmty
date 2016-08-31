@@ -14,15 +14,18 @@ div{
 }
 
 #topContainer{
-	min-height: 632px;
+	min-height: 700px;
 	padding-top: 60px;
 	padding-bottom: 0px;
 	background-image: url("../images/rec_mty_background.png");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	background-size: 100% 100%;
+	background-size: cover;
+	background-position: 50% 50%;
 	text-align: center;
 	display: block;
+	background-color: blue;
+	bottom: 0px;
 }
 #social{
 	width: 870px;
@@ -38,6 +41,7 @@ div{
 	margin: 60px;
 }
 #topDividerWrapper{
+	top: 0px;
 	width: 100%;
 	background-color: #ED1C24;
 	margin: 0px;
@@ -66,13 +70,14 @@ a.nav {
     background-color: #111;
 }*/
 #secondContainer{
-	min-height: 632px;
+	min-height: 640px;
 	padding-top: 80px;
 	padding-bottom: 0px;
 	background-image: url("../images/rec_posada_background.png");
 	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50% 50%;
 	background-attachment: fixed;
-	background-size: 100% 100%;
 	text-align: center;
 	display: block;
 }
@@ -92,4 +97,28 @@ a.nav {
 }
 #workList li{
 	padding: 1px;
+}
+#fourthContainer{
+	height:100px;
+	text-align: center;
+	background-image: url("../images/rec_france.png");
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	padding: 200px;
+	color: red;
+}
+#fifthContainer{
+	background-color: #ED1C24;
+	text-align: center;
+	padding: 100px;
+}
+#sixthContainer{
+	height: 200px;
+	background-color: #262627;
+}
+#footer {
+	height:	100px;
+	background-color: #1f2125;
 }
