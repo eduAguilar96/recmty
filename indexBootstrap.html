@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Bootstrap Example</title>
+	<title>REC Monterrey</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
+	<link rel = "icon" href = "images/REC_logo_0.png">
 	<style>
 		html,body{
 			font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
@@ -26,25 +26,21 @@
 			background-position: 50% 50%;
 		}
 		#home img{
-			margin: 40px;
+			padding: 0px;
+			margin: 10px;
 		}
-		#about{
-			background-color: #fff;
-			padding-bottom: 20px;
+		#social{
+			padding: 0px;
+			margin: 0px auto 0px auto;
+			text-align: center;
 		}
-		.logo {
-    		font-size: 200px;
-    		text-align: center;
+		#social li{
+			display: inline;
+			margin: 20px;
 		}
-		@media screen and (max-width: 768px) {
-    		.col-sm-4 {
-        		text-align: center;
-        		margin: 25px 0;
-    		}
+		li img{
+			padding: 20px;
 		}
-		.container-fluid {
-      		padding: 60px 50px;
-  		}
 		.navbar {
 			margin-bottom: 0;
 			background-color: #ED1C24;
@@ -75,12 +71,46 @@
   		.affix + .container-fluid {
      		padding-top: 70px;
   		}
+		#about{
+			background-color: #fff;
+			padding-bottom: 20px;
+		}
+		.logo {
+    		font-size: 200px;
+    		text-align: center;
+		}
+		@media screen and (max-width: 768px) {
+    		.col-sm-4 {
+        		text-align: center;
+        		margin: 25px 0;
+    		}
+		}
+		.container-fluid {
+      		padding: 60px 50px;
+  		}
   		.carousel-inner > .item > img,
   		.carousel-inner > .item > a > img {
      		width: 100%;
       		margin: auto;
   		}
-
+  		#projects{
+  			text-align: center;
+  			background-color: #fff;
+  		}
+  		#projects h1, #projects h3{
+  			margin: 40px;
+  		}
+  		#video{
+  			padding: 40px;
+  		}
+  		#contact{
+  			color: #fff;
+  			background-color: #262627;
+  		}
+  		#footer {
+  			color: #fff;
+			background-color: #1f2125;
+		}
 		
 
   </style>
@@ -88,7 +118,11 @@
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
 	
 	<div id="home" class="container-fluid" style="">
-
+		<ul id = "social">
+			<li><a href="https://www.facebook.com/rec.monterrey" target="_blank"><img src="images/faceB.png" width="50" height="50"></a></li>
+			<li><a href="https://www.instagram.com/rec.monterrey/" target="_blank"><img src="images/insta.png" width="50" height="50"></a></li>
+			<!-- <li></li> -->
+		</ul>
 		<img src = "images/REC_logo_0.png" alt="REC Logo"width = "201" height = "201">
 		<h3 class="text-center">"Documenta tu vida"</h3>
 	</div>
@@ -168,24 +202,30 @@
 			</a>
 		</div>
 	</div>
-	<div id  = "about"class="container-fluid" style="height:1000px">
-		<h1>Some text to enable scrolling</h1>
-		<h1>Some text to enable scrolling</h1>
-		<h1>Some text to enable scrolling</h1>
-		<h1>Some text to enable scrolling</h1>
-		<h1>Some text to enable scrolling</h1>
-		<h1>Some text to enable scrolling</h1>
-		<h1>Some text to enable scrolling</h1>
-		<h1>Some text to enable scrolling</h1>
-		<h1>Some text to enable scrolling</h1>
-		<h1>Some text to enable scrolling</h1>
-		<h1>Some text to enable scrolling</h1>
+	<div id  = "projects" class="container-fluid">
+		<h1>La memoria de tu evento es nuestro deber</h1>
+		<h3>Fiestas</h3>
+		<h3>Bodas</h3>
+		<h3>Comerciales</h3>
+		<h3>Graduaciones</h3>
+		<h3>"Photoshoots"</h3>
+		<h3>Cortometrajes</h3>
+		<h3>Videos de Musica</h3>
+		<h3>Posadas</h3>
+		<h3>Carnavales</h3>
+		<h3>Partidos</h3>
+		<h3>etc...</h3>
 	</div>
-	<div class="progress">
-		<div class="progress-bar progress-bar-danger progress-bar-striped active" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width:20%">
-			This page Completetion 20%
-		</div>
+	<div class="embed-responsive embed-responsive-16by9">
+  		<iframe class="embed-responsive-item" src="https://player.vimeo.com/video/182805088?autoplay=1&color=ff0000" width="1000" height="563" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 	</div>
-
+	<div id="contact" class = "container-fluid">
+		<img src = "images/REC_logo_0.png" width = "100" height = "100" style = "float: left;">
+		<h4>Rec Monterrey 2016</h4>
+	</div>
+	<div id="footer" class = "container-fluid">
+		<h5>rec.monterrey@gmail.com</h5>
+		<h5>Author: Eduardo Aguilar Leal</h5>
+	</div>
 </body>
 </html>
